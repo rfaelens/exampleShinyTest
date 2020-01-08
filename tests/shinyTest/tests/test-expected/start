@@ -1,0 +1,16 @@
+{
+  "input": {
+
+  },
+  "output": {
+    "myOutput": {
+      "html": "Hello, world!",
+      "deps": [
+
+      ]
+    }
+  },
+  "export": {
+
+  }
+}
