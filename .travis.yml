@@ -7,8 +7,8 @@ cache:
 # We need to install lbzip2 first
 before_install:
     - sudo apt-get -y install lbzip2
-- Rscript -e 'install.packages("shinytest")'
-- Rscript -e 'shinytest::installDependencies()'
+    - Rscript -e 'install.packages("shinytest")'
+    - Rscript -e 'shinytest::installDependencies()'
 
 after_success:
     - Rscript -e 'covr::codecov(quiet=FALSE)'
